@@ -1,0 +1,10 @@
+.videoGrid {
+    flex: 0.85;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #f9f9f9;
+    overflow-y: scroll;
+    height: 100vh;
+  }
